@@ -1,0 +1,26 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+li {
+    color: var(--main-text-color);
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 22px;  
+    font-weight: 500;
+    justify-content: space-between;
+  }
+.logo {
+    height: fit-content;
+}
+.NavBtn {
+    color: var(--main-text-color);
+    text-decoration: none;
+  }
