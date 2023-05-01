@@ -18,7 +18,7 @@ export default class Header extends Component {
                             <div className='sign'>
                                 <Button link='#' variant='bright' content='Вход'/>
                                 <Button link='#'  content='Регистрация'/>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </header>
