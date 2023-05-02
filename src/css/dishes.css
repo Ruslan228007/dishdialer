@@ -11,7 +11,7 @@
     width: 1052px;
     height: 1040px;
     animation-name: rotationtiny;
-    animation-duration: 40s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     pointer-events: none;
@@ -26,7 +26,7 @@
 }
 .big {
     animation-name: rotationbig;
-    animation-duration: 30s;
+    animation-duration: 50s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     pointer-events: none;
