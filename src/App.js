@@ -5,6 +5,8 @@ import './css/reset.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'
 import Cooks from './pages/Cooks'
+
+
 function App() {
   return (
     <div className="App">

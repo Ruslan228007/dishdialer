@@ -7,19 +7,23 @@ html {
 
 body {
   font-family: 'Montserrat Alternates', sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
+
 .App {
   padding-top: 20px;
 }
+
 section,
 header {
   width: 100%;
 }
+
 .sign {
   display: flex;
   flex-direction: row;
@@ -31,7 +35,3 @@ header {
   --second-text-color: #9A5252;
   --button-text-color: #FFF8F8;
 }
-
-
-
-

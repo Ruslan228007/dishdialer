@@ -1,0 +1,50 @@
+.dishes {
+    z-index: 5;
+}
+.tiny1 {
+    position: absolute;
+    top: 98px;
+    right: -402px;
+    max-width: 100%;
+}
+.tiny {
+    width: 1052px;
+    height: 1040px;
+    animation-name: rotationtiny;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    pointer-events: none;
+}
+.big1 {
+    position: absolute;
+    top: 210px;
+    right: -220px;
+    width: 100%;
+    pointer-events: none;
+    
+}
+.big {
+    animation-name: rotationbig;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    pointer-events: none;
+}
+
+@keyframes rotationtiny  {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(-360deg);
+    }
+}
+@keyframes rotationbig {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}

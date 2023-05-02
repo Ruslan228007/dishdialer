@@ -5,9 +5,11 @@
     text-decoration: none;
     font-size: 22px;
 }
+
 .button.dark {
     background-color: var(--main-text-color);
 }
+
 .button.bright {
     background-color: var(--second-text-color);
 }

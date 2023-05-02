@@ -9,7 +9,7 @@ export default class Header extends Component {
                 <header>
                     <div className='container'>
                         <div className='head'>
-                            <img src={logo} className='logo'/>
+                            <a href='`/'><img src={logo} className='logo'/></a>
                             <ul>
                                 <NavBtn link='/' content='Главная'/>
                                 <NavBtn link='/cooks' content='Повара'/>
