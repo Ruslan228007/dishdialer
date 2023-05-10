@@ -9,7 +9,9 @@
 
 .maintext {
     margin-top: 100px;
-    height: 700px;
+    height: 460px;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
 }
 
 .maintext .container {
@@ -30,14 +32,17 @@
 }
 
 .negr {
+
     margin-top: 200px;
     padding: 15px 50px;
     font-size: 22px;
     font-weight: 500;
+    transition: 0.2s;
 }
 
 .reas {
-    height: 651px;
+    margin-top: 200px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -47,6 +52,7 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
+    transition: 0.2s;
 }
 
 .fact h2 {
@@ -57,7 +63,7 @@
     width: 580px;
 }
 
-.reas .container {
+.toreas .reas .container {
     display: flex;
     height: 651px;
     flex-direction: column;
@@ -67,8 +73,9 @@
 
 .reas h1 {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 73px;
+    margin-bottom: 20px;
 }
 
 .n1 {
@@ -89,18 +96,124 @@
     gap: 10px;
 }
 
+.margin0 {
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+
+}
+
 .margin1 {
     margin-left: 125px;
-    animation: slideInLeft;
+    animation-name: slideInLeft;
     animation-duration: 1s;
+
 }
 
 .margin2 {
     margin-left: 250px;
-    animation: slideInLeft;
+    animation-name: slideInLeft;
     animation-duration: 1s;
 }
-.margin0 {
-    animation: slideInLeft;
-    animation-duration: 1s;
+
+.notreas .container {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--main-text-color);
+}
+
+.map {
+    pointer-events: none;
+}
+
+.nml h3 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.nml h4 {
+    font-weight: 600;
+    width: 182px;
+    font-size: 24px;
+}
+.nml p {
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+width: 182px;
+color: var(--second-text-color);
+}
+.left {
+    display: flex;
+    flex-direction: row;
+    gap: 450px;
+    position: relative;
+    top: -120px;
+}
+.nml {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.gr {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.right {
+    display: flex;
+    flex-direction: row;
+    gap: 450px;
+    position: relative;
+    top: -280px;
+    right: -310px;
+}
+
+@media (min-width: 1800px) {
+    .maintext {
+        margin-top: 140px;
+        height: 50 0px;
+    }
+
+    .maintext h1 {
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 110px;
+        width: 620px;
+
+        color: var(--main-text-color);
+    }
+
+    .toreas .reas .container {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        color: var(--main-text-color);
+    }
+
+    .reas {
+        padding-top: 90px;
+    }
+    .maintext p {
+        margin-bottom: 30px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 140%;
+        width: 620px;
+        color: var(--second-text-color)
+    }
+}
+
+.fact:hover {
+    transform: scale(1.02);
+}
+
+@media (min-width: 1600px) {
+    .maintext {
+        margin-top: 140px;
+    }
+
 }

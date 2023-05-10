@@ -11,7 +11,9 @@ body {
   background-color: var(--button-text-color);
   scroll-behavior: smooth;
 }
-
+.wow {
+  visibility: hidden;
+}
 .container {
   width: 1140px;
   margin: 0 auto;
